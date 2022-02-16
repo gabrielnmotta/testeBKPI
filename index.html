@@ -6,55 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto BKPI</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Roboto+Slab:wght@300;400;500;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/1ed5a22e9d.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="container">
-        
-        <div class="perfil">
-            
-            <div class = "circle">
-                <img src="/nogueira.jpg">
+        <div class="profile">
+            <div class="avatar">
+                <img src="https://github.com/gabrielnmotta.png">
             </div>
 
-            <div class="infs">
-                <h class="nome">Gabriel Nogueira</h2>
-                <p class="local">Uberlândia, Brasil</p>
-                <h3 class="função">Developer</h3>
+            <div class="infos">
+                <h1 class="nome">Gabriel Nogueira</h1>
+                <p class="local"><img src="pin.png" alt="map marker icon"/> Uberlândia, Brasil</p>
+                <h3 class="funcao">Developer</h3>
             </div>
                 
 
-            <div class="upgrade">
-                <input type="button" class="upgrade" value="Upgrade Now - Go Pro">
-            </div>
             
-            <div class="container2"></br></br>
+            <input type="button" class="upgrade" value="Upgrade Now - Go Pro">
+            
+        </div>
+
+            <div class="settingsWrapper"></br>
                 
                 <h1 class="some">Settings</h1>
                 <div class="settings">
-                    <input type="button" class="darkmode" value="Dark mode">
+                <i class="fa-solid fa-moon"></i> <input type="button" class="darkmode" value="Dark mode" >
                     
-                    <label class="switch"></label>
+                    
+                    
+                    <label class="switch">
                         <input type="checkbox">
                         <span class="slider round"></span>
                     </label></br>
                     
-                    <input type="button" class="notifications" value="Notifications"></br>
-                    <input type="button" class="Privacy" value="Privacy"></br>
-                    <input type="button" class="Security" value="Security"></br></br>
+                    <!--
+                        setas usadas para os botoes
+                        <i class="fa-solid fa-angle-right"></i>
+                        <i class="fa-solid fa-angle-left"></i>
+                    -->
+                    <i class="fa-solid fa-bell"></i> <input type="button" class="notifications" value="Notifications"></br>
+                    <i class="fa-solid fa-lock"></i> <input type="button" class="Privacy" value="Privacy"></br>
+                    <i class="fa-solid fa-shield-blank"></i> <input type="button" class="Security" value="Security"></br>
         
-                    <input type="button" class="Account" value="Account"></br>
-                    <input type="button" class="Help" value="Help" ></br>
-                    <input type="button" class="About" value="About"></br>
+                    <span class="user"><i class="fas fa-user"></i></span> <input type="button" class="Account" value="Account"></br>
+                    <i class="fas fa-question-circle"></i> <input type="button" class="Help" value="Help" ></br>
+                    <i class="fa-solid fa-circle-exclamation"></i> <input type="button" class="About" value="About"></br>
                 </div>
             </div>
-
-            
-
-        </div>
-        
-
     </div>
 </body>
 </html>
