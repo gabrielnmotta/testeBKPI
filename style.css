@@ -26,6 +26,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    position: relative;
 }
 
 .profile {
@@ -95,6 +97,9 @@ body {
     transition: filter 0.3s;
 }
 
+.upgrade:hover {
+    filter: brightness(0.9);
+}
 
 .settingsWrapper{
     width: 500px;
@@ -103,22 +108,43 @@ body {
     background: #fff
 }
 
-.some{
-    margin: 15px 0px 30px 50px;
-
-    font-size: 30px;
-    font-family: 'Roboto Slab', serif;
-    font-weight: 700;
+.settings {
+    margin: 15px 30px;
 }
 
-.darkmode{
-    margin: -100px 0px 30px 50px;
-    border: 0;
-    background-color: #fff;
-
-    font-size: 24px;
+.settingTitle {
+    font-size: 35px;
     font-family: 'Roboto Slab', serif;
-    font-weight: 400;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+.settingsRow {
+    display: flex;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.settingsRow + .settingsRow {
+    margin-top: 10px;
+}
+
+.settingsBtn {
+    margin-left: auto;
+}
+
+.settingsRow.specialMargin {
+    margin-top: 35px;
+}
+
+.settingsIcon img, .settingsBtn img {
+    width: 30px;
+}
+
+.settingsLabel {
+    font-size: 18px;
+    margin-left: 15px;
 }
 
 .switch {
@@ -180,89 +206,16 @@ input:checked + .slider:before {
     border-radius: 50%;
 }
 
-.notifications{
-    margin: 0px 0px 10px 50px;
-    border: 0;
-    background-color: #fff;
 
-    font-size: 24px;
-    font-family: 'Roboto Slab', serif;
-    font-weight: 400;
-
-    cursor: pointer;
-    transition: filter 0.3s;
+.goBack {
+    position: absolute;
+    top: 45px;
+    left: 20px;
 }
 
-.notifications:hover {
-    filter: brightness(.9);
+.goBack img {
+    width: 45px;
 }
-
-.Privacy{
-    margin: 0px 0px 10px 50px;
-    border: 0;
-    background-color: #fff;
-    
-    font-size: 24px;
-    font-family: 'Roboto Slab', serif;
-    font-weight: 400;
-
-    cursor: pointer;
-    transition: filter 0.3s;
-}
-
-.Security{
-    margin: 0px 0px 25px 50px;
-    border: 0;
-    background-color: #fff;
-    
-    font-size: 24px;
-    font-family: 'Roboto Slab', serif;
-    font-weight: 400;
-
-    cursor: pointer;
-    transition: filter 0.3s;
-}
-
-.Account{
-    margin: 0px 0px 10px 50px;
-    border: 0;
-    background-color: #fff;
-    
-    font-size: 24px;
-    font-family: 'Roboto Slab', serif;
-    font-weight: 400;
-
-    cursor: pointer;
-    transition: filter 0.3s;
-}
-
-.Help{
-    margin: 0px 0px 10px 50px;
-    border: 0;
-    background-color: #fff;
-    
-    font-size: 24px;
-    font-family: 'Roboto Slab', serif;
-    font-weight: 400;
-
-    cursor: pointer;
-    transition: filter 0.3s;
-}
-
-.About{
-    margin: 0px 0px 0px 50px;
-    border: 0;
-    background-color: #fff;
-    
-    font-size: 24px;
-    font-family: 'Roboto Slab', serif;
-    font-weight: 400;
-
-    cursor: pointer;
-    transition: filter 0.3s;
-}
-
-
 
 
 

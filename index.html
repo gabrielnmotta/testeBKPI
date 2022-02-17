@@ -14,6 +14,11 @@
 
 <body>
     <div class="container">
+
+        <div class="goBack">
+            <img src="assets/left-arrow.png" alt="voltar">
+        </div>
+
         <div class="profile">
             <div class="avatar">
                 <img src="https://github.com/gabrielnmotta.png">
@@ -21,43 +26,72 @@
 
             <div class="infos">
                 <h1 class="nome">Gabriel Nogueira</h1>
-                <p class="local"><img src="pin.png" alt="map marker icon"/> Uberlândia, Brasil</p>
+                <p class="local"><img src="/assets/pin.png" alt="map marker icon"/> Uberlândia, Brasil</p>
                 <h3 class="funcao">Developer</h3>
             </div>
-                
-
-            
-            <input type="button" class="upgrade" value="Upgrade Now - Go Pro">
-            
+  
+            <input type="button" class="upgrade" value="Upgrade Now - Go Pro">    
         </div>
 
-            <div class="settingsWrapper"></br>
-                
-                <h1 class="some">Settings</h1>
-                <div class="settings">
-                <i class="fa-solid fa-moon"></i> <input type="button" class="darkmode" value="Dark mode" >
-                    
-                    
-                    
-                    <label class="switch">
-                        <input type="checkbox">
-                        <span class="slider round"></span>
-                    </label></br>
-                    
-                    <!--
-                        setas usadas para os botoes
-                        <i class="fa-solid fa-angle-right"></i>
-                        <i class="fa-solid fa-angle-left"></i>
-                    -->
-                    <i class="fa-solid fa-bell"></i> <input type="button" class="notifications" value="Notifications"></br>
-                    <i class="fa-solid fa-lock"></i> <input type="button" class="Privacy" value="Privacy"></br>
-                    <i class="fa-solid fa-shield-blank"></i> <input type="button" class="Security" value="Security"></br>
-        
-                    <span class="user"><i class="fas fa-user"></i></span> <input type="button" class="Account" value="Account"></br>
-                    <i class="fas fa-question-circle"></i> <input type="button" class="Help" value="Help" ></br>
-                    <i class="fa-solid fa-circle-exclamation"></i> <input type="button" class="About" value="About"></br>
+        <div class="settingsWrapper">
+            
+            <div class="settings">
+              <h1 class="settingTitle">Settings</h1>
+
+              <div class="settingsRow">
+                  <div class="settingsIcon"><img src="/assets/night-mode.png" alt="icone de lua"/></div>
+
+                  <span class="settingsLabel">Dark Mode</span>
+
+                  <div class="settingsBtn">
+                      <label class="switch">
+                          <input type="checkbox">
+                          <span class="slider round"></span>
+                      </label>
+                  </div>
+              </div>
+
+              
+                <div class="settingsRow specialMargin">
+                    <div class="settingsIcon"><img src="/assets/bell.png" alt="icone de notificação"/></div>
+                    <span class="settingsLabel">Notifications</span>
+                    <div class="settingsBtn"><img src="/assets/right-arrow.png" alt="seta direita"/></div>
                 </div>
+                
+                <div class="settingsRow">
+                    <div class="settingsIcon"><img src="/assets/lock.png" alt="icone de cadeado"/></div>
+                    <span class="settingsLabel">Privacy</span>
+                    <div class="settingsBtn"><img src="/assets/right-arrow.png" alt="seta direita"/></div>
+                </div>
+
+                <div class="settingsRow">
+                    <div class="settingsIcon"><img src="/assets/computer-security-shield.png" alt="icone de escudo"/></div>
+                    <span class="settingsLabel">Security</span>
+                    <div class="settingsBtn"><img src="/assets/right-arrow.png" alt="seta direita"/></div>
+                </div>
+                    
+                
+                <div class="settingsRow specialMargin">
+                    <div class="settingsIcon"><img src="/assets/user.png" alt="icone de perfil"/></div>
+                    <span class="settingsLabel">Account</span>
+                    <div class="settingsBtn"><img src="/assets/right-arrow.png" alt="seta direita"/></div>
+                </div> 
+
+                <div class="settingsRow">
+                    <div class="settingsIcon"><img src="/assets/question-mark.png" alt="icone de interrogação"/></div>
+                    <span class="settingsLabel">Help</span>
+                    <div class="settingsBtn"><img src="/assets/right-arrow.png" alt="seta direita"/></div>
+                </div> 
+
+                <div class="settingsRow">
+                    <div class="settingsIcon"><img src="/assets/information-button.png" alt="icone de informações"/></div>
+                    <span class="settingsLabel">About</span>
+                    <div class="settingsBtn"><img src="/assets/right-arrow.png" alt="seta direita"/></div>
+                </div> 
+
             </div>
+        </div>
     </div>
 </body>
 </html>
+             
