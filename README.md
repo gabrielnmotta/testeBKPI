@@ -8,4 +8,5 @@
 <img align="center" alt="Gabriel-css" height="70" width="80" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
 </div>
 
-## Resultado
+## Resultado  
+![image](https://user-images.githubusercontent.com/6764501/154400441-76c10471-d04c-4edb-bdac-1bc07ac2d0e5.png)
